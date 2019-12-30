@@ -9,9 +9,11 @@
  * Text Domain: starter-plugin
  */
 
-/**
- * Shortcut constant to the path of this file.
- *
- * This will allow you to hook into this plugin file path from anywhere by simply using the STARTER_PLUGIN_DIR constant.
+/*
+ * SHORTCUT CONSTANT
  */
 define( 'STARTER_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+
+/**
+ * Place your CUSTOM code below this comment
+ */
